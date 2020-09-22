@@ -1,0 +1,13 @@
+<h1>dashboard</h1>
+Many things showed under below.
+<div *ngIf="cities.length !== 0">
+    <br>
+    <table>
+        <tr><th>Id</th><th>Name</th><th>Weather</th></tr>
+        <tr *ngFor="let city of cities">
+            <td>{{city.id}}</td>
+            <td>{{city.name}}</td>
+            <td>{{city.weather}}</td>
+        </tr>
+    </table>
+</div>

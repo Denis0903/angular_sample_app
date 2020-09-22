@@ -1,0 +1,9 @@
+.header {
+    padding: 4px;
+    background-color: #29088A; /*背景は紺色*/
+    color: #FFF;               /*文字は白色*/
+  }
+  .header img {
+    width: 18px;
+    vertical-align: middle;
+  }

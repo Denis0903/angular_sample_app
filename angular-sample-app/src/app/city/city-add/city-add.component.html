@@ -1,0 +1,6 @@
+<p>city-add works!</p>
+<form #f="ngForm" (ngSubmit)="onSubmit(f.value)">
+    <input type="text" name="name" [(ngModel)]="name">
+    <button type="submit">OK</button>
+    <button routerLink="/dashboard">Cancel</button>
+</form>
